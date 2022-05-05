@@ -1,0 +1,132 @@
+.getintouch {
+    background-color: white;
+    max-width: 100%;
+    padding: 0 5%;
+}
+.getintouch-wrapper {
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+    padding: 100px 0 0 0;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.getintouch-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41.9876px;
+    margin: 0;
+}
+.getintouch-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.9953px;
+    line-height: 28px;
+    width: 750px;
+    margin: 45px 0 58px 0;
+}
+.getintouch-red-line {
+    border-bottom: red solid 2px;
+    width: 134px;
+    height: 5px;
+    margin: 0 0 74px 0;
+}
+/* GETINTOUCH FEEDBACK */
+.getintouch-feedback-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 0 108px 0;
+}
+
+.getintouch-form {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-inputs {
+    display: inline-block;
+}
+
+
+.input-getintouch-feedback {
+    font-family: 'Open Sans';
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 330px;
+    height: 71px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 15px 0 ;
+    padding-left: 20px;
+}
+.textarea-getintouch-feedback {
+    font-family: 'Open Sans';
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 740px;
+    height: 249px;
+    border-radius: 10px;
+    border: none;  
+    margin: 46px 0 25px 0;
+}
+.textarea-getintouch-feedback::placeholder {
+    color: #000000;
+}
+.button-getintouch-feedback {
+    width: 740px;
+    height: 75px;
+    background-color: #FF3B3B;
+    font-family: 'Open Sans';
+    font-weight: 700;   
+    font-size: 17.9026px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.getintouch-feedback-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2D2D2D;
+    width: 40%;
+}
+
+.getintouch-info-title {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 17.9026px;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin: 0 0 30px 65px;
+}
+.getintouch-info-text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 0 0 25px 65px;
+}
+
+@media (max-width: 1440px) {
+    .getintouch-feedback-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .getintouch-form {
+        max-width: 100%;
+    }
+    .getintouch-feedback-info {
+        width: 100%;
+        padding: 3% 0;
+        margin-top: 50px;
+    }
+}

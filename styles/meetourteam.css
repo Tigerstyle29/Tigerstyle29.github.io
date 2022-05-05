@@ -1,0 +1,134 @@
+.meetourteam {
+    background-color: white;
+    max-width: 100%;
+    padding: 0 0 5% 0;
+    margin: 0;
+}
+.meetourteam-wrapper {
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+    padding: 100px 0 0 0;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.meetourteam-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 41.9876px;
+}
+.meetourteam-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15.9953px;
+    line-height: 28px;
+    margin: 0 0 37px 20px;
+    width: 34%;
+}
+.meetourteam-red-line {
+    border-bottom: red solid 2px;
+    width: 134px;
+    height: 5px;
+    margin: 0 0 37px 20px;
+}
+.meetourteam-content-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.meetourteam-content-pictures {
+    display: flex;
+
+}
+.meetourteam-content-pictures-1 {
+    margin-left: 20px;
+    width: 350px;
+    height: 500px; 
+}
+.meetourteam-content {
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.meetourteam-content-text {
+    font-weight: 400;
+    font-size: 15.9953px;
+    max-width: 75%;
+    margin: 0;
+}
+.meetourteam-nav-bar {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;	 
+    flex-wrap: nowrap;
+    list-style: none;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 46px 60% 0 0;
+    padding: 0;
+}
+.meetourteam-content-pictures-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.meetourteam-content-pictures-2 {
+    width: 210px;
+    height: 240px;
+}
+.galery-grid {
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+}
+.grid-item_inner {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+.grid-item_inner:before {
+    position: absolute;
+    left: 0;
+    top: 80%;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 0;
+    transition: all .4s ease;
+    content: '';
+}
+.grid-item_inner:hover:before {
+    opacity: 1;
+}
+.grid-item_img {
+    width: 250px;
+    height: 250px;
+}
+.grid-item_title {
+    position:absolute;
+    left: 20%;
+    bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: white;
+    overflow: hidden;
+}
+.grid-item_title > span {
+    display:block;
+    transform: translateY(30px);
+    transition: transform .4s ease;
+}
+.grid-item_inner:hover .grid-item_title > span {
+    transform: translateY(0);
+}
+
+@media (max-width: 1440px) {
+    .meetourteam-content-wrapper {
+        flex-direction: column;
+    }
+}

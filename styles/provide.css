@@ -1,0 +1,73 @@
+
+.provide {
+    background-color: white;
+    width: 100%;
+}
+
+.provide-wrapper {
+    display: flex;
+    margin: 50px auto;
+    max-width: 1440px;
+    padding: 5% 0;
+}
+
+.provide-text {
+	color: #000000
+}
+.provide-text > h1 {
+    margin: 0;
+    line-height: 55px;
+    font-size: 43px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.55);
+}
+.provide-text > p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 53px 0 0 0;
+}
+.provide-button {
+    background-color: rgba(0, 0, 0, 0.0001);
+    width: 227px;
+    height: 55px;
+    font-size: 20px;
+    
+    /* закруглить углы */
+    border-radius: 5px;
+    /* цвет текста в кнопке */
+    color: #FF2D2D;
+    /* цвет рамки кнопки */
+    border: 2px solid #FF0000; 
+    font-weight: 700;
+}
+/* чтобы кнопка реагировала на мышку */
+.provide-button {
+    margin-top: 50px;
+    box-shadow: 0 0 0px 0px #000;
+}
+.provide-button:hover {
+    box-shadow: 0 0 5px 2px #000;
+}
+/* правая часть */ 
+.provide-content-1 {
+    margin-left: 30px;
+    line-height: 28px;
+}
+.provide-content-2 {
+    margin-left: 30px;
+    line-height: 28px;
+}
+
+@media (max-width: 991px) {
+    .provide-wrapper {
+       flex-direction: column;
+       padding: 0 10%;
+    }
+
+    .provide-text {
+        margin-bottom: 40px;
+    }
+}
